@@ -24,6 +24,16 @@ body { background-color: black; }
 .wd-img-text-dim { max-width: 504px; border-bottom-left-radius: 40px; border-bottom-right-radius: 40px; }
 .wd-img-text { color: lightgray; font-size: 15px; }
 
+.wd-icon-dim { max-width: 506px; padding-right: 16px; }
+.wd-flex-container-icon { display: flex; justify-content: space-around; }
+.wd-icon { width: 20px; position: relative; top: 5px; }
+.wd-icon-text { color: lightgray; font-size: 15px; }
+.wd-icon-text-hightlight { color: red; font-size: 15px; }
+/*.wd-flex-container-search { display: flex; align-items: center; justify-content: space-between; }*/
+/*.wd-search { width: 80%; border-radius: 20px; padding: 10px;*/
+/*    border-width: 0px;  background-color: darkgray; color: white; }*/
+/*::placeholder { color: lightgray; opacity: 1; }*/
+/*.wd-setting-icon { width: 30px; position: relative; right: 12px; }*/
 /* ******************** */
 .wd-search { width: 80%; border-radius: 20px; padding: 10px;
     border-width: 0px;  background-color: darkgray; color: white; }
