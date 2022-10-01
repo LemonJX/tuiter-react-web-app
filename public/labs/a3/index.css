@@ -150,7 +150,7 @@ p#id-selector-2 { background-color: yellow; color: black; }
     .media-query { background-color: yellow; color: black; }
 }
 @media (min-width: 1200px) and (max-width: 1800px) {
-    body { background-color: lightgray; color: black; }
+    body { background-color: white; color: black; }
     .media-query { background-color: blue; color: white; }
 }
 
