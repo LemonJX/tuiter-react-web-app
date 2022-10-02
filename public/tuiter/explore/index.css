@@ -1,5 +1,6 @@
 body { background-color: black; }
 .wd-padding-left { padding-left: 16px; }
+.wd-padding-right { padding-right: 16px; }
 .wd-padding-top { padding-top: 10px; }
 .wd-border { border-width: 1px; border-style: solid; border-color: rgb(47,51,54); }
 
@@ -19,7 +20,7 @@ body { background-color: black; }
 .wd-post-title { color: white; font-size: 20px; }
 .wd-post-text { color: rgb(110,118,125); font-size: 13px; }
 
-.wd-grid-container {display: grid; grid-template-columns: auto 120px;
-    justify-content: space-between; grid-column-gap: 5px; padding-bottom: 10px; }
+.wd-grid-container {display: grid; grid-template-columns: auto 100px;
+    justify-content: space-between; grid-column-gap: 10px; padding-bottom: 10px; }
 .wd-img { border-radius: 20px; width: 100px; height: 100px; }
 .wd-post-author { color: white; font-size: 13px; }
