@@ -5,13 +5,13 @@
     <title>Explore</title>
     <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link href="../../vendors/fontawesome/css/all.css" rel="stylesheet"/>
-    <link href="index.css" rel="stylesheet"/>
+    <link href="challenge.css" rel="stylesheet"/>
 </head>
 <body>
     <div class="container">
         <div class="row m-2">
             <!-- COLUMN 1 -->
-            <div class="col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
+            <div class="wd-column1 col-2 col-sm-2 col-md-2 col-lg-1 col-xl-2 col-xxl-2">
                 <nav class="list-group rounded">
                     <a href="#" class="list-group-item list-group-item-action">
                         <i class="fab fa-twitter"></i></a>
@@ -41,14 +41,14 @@
             </div>
 
             <!-- COLUMN 2 -->
-            <div class="col-10 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
+            <div class="wd-column2 col-10 col-sm-10 col-md-10 col-lg-7 col-xl-6 col-xxl-6">
                 <div class="row align-items-center mb-2">
                     <div class="col-10">
-                        <i class="fas fa-search position-absolute p-1 m-2"></i>
-                        <input class="form-control rounded-pill p-2" type="text" placeholder="Search Tuiter">
+                        <i class="fas fa-search position-absolute p-2 m-1 ms-4"></i>
+                        <input class="form-control rounded-pill p-2 ms-3" type="text" placeholder="Search Tuiter">
                     </div>
                     <div class="col-2">
-                        <a href="explore-setting.html"><i class="fas fa-cog fa-2x float-end"></i></a>
+                        <a href="explore-setting.html"><i class="fas fa-cog fa-2x float-end me-3"></i></a>
                     </div>
                 </div>
                 <ul class="nav nav-tabs mb-2 navbar-expand">
@@ -113,8 +113,8 @@
             </div>
 
             <!-- COLUMN 3 -->
-            <div class="d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 col-xxl-4">
-                <div class="row border rounded-top ms-1">
+            <div class="wd-column3 d-none d-sm-none d-md-none d-lg-block col-lg-4 col-xl-4 col-xxl-4">
+                <div class="row border rounded-top ms-1 wd-first">
                     <div class="text-black small m-2"><b>Who to follow</b></div>
                 </div>
                 <div class="row py-2 border border-top-0 ms-1"> <!--py-2: distribute space for this row-->
@@ -161,7 +161,7 @@
                         <button type="button" class="btn btn-primary rounded-pill float-end">Follow</button>
                     </div>
                 </div>
-                <div class="row py-2 border rounded-bottom border-top-0 ms-1">
+                <div class="row py-2 border rounded-bottom border-top-0 ms-1 wd-last">
                     <div class="col-2 wd-logo"><img src="icon/tesla.png" class="rounded-circle"></div>
                     <div class="col-7">
                         <span class="text-black small"><b>Telsa</b>

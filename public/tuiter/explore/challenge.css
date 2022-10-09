@@ -1,0 +1,30 @@
+body { background-color: black; }
+.text-black { color: white !important; }
+
+/* Col 1 */
+.list-group-item { background-color: black; color: white; }
+.wd-column1 > nav > a.active { background-color: black; border-style: none; font-weight: bold; }
+
+/* Col 2 */
+.wd-column2 { border-left-style: solid; border-right-style: solid; padding: 0px; }
+input { background-color: #303030 !important; border-style: none !important;
+    color: white !important; text-indent: 40px; }
+.fa-search { color: gray; }
+.fa-cog { color: white; }
+
+.nav-tabs { border-style: none; margin-bottom: 2px !important; }
+.nav-tabs .nav-link { border-style: none; background-color: black !important; }
+.nav-item > a { color: gray !important; }
+.nav-item > a.active { color: white !important; border-bottom-color: #1c9bf0 !important;
+    border-bottom-style: solid !important; border-bottom-width: 3px !important; } /* OR: .nav-item > a:hover */
+
+main > .row { border-color: #303030 !important; }
+.wd-post img { width: 70px; height: 70px; }
+
+/* Col 3 */
+.wd-column3 > .row { border-style: none !important; background-color: #303030; }
+.wd-first { border-top-right-radius: 20px !important; border-top-left-radius: 20px !important; }
+.wd-last { border-bottom-right-radius: 20px !important; border-bottom-left-radius: 20px !important; }
+.wd-logo img { width: 40px; height: 40px; }
+button.float-end { background-color: white; border-style: none;
+    color: black; font-weight: bold; font-size: small; }
