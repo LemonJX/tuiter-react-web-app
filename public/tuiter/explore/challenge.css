@@ -9,8 +9,8 @@ body { background-color: black; }
 .wd-column2 { border-left-style: solid; border-right-style: solid; padding: 0px; }
 input { background-color: #303030 !important; border-style: none !important;
     color: white !important; text-indent: 40px; }
-.fa-search { color: gray; }
-.fa-cog { color: white; }
+.fa-magnifying-glass { color: gray; }
+.fa-gear { color: white; }
 
 .nav-tabs { border-style: none; margin-bottom: 2px !important; }
 .nav-tabs .nav-link { border-style: none; background-color: black !important; }
