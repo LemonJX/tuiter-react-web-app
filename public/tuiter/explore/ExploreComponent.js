@@ -17,8 +17,7 @@ const ExploreComponent = () => {return(`
         <li class="nav-item d-sm-none d-md-block"><a href="#" class="nav-link">Entertainment</a></li>
     </ul>
     <div class="position-relative">
-        <img src="https://www.staradvertiser.com/wp-content/uploads/2021/08/web1_Starship-gap2.jpg"
-             class="w-100" alt="SpaceX Starship">
+        <img src="../image/starship.jpeg" class="w-100 mb-2" alt="SpaceX Starship">
         <h1 class="position-absolute bottom-0 m-2">SpaceX's Starship</h1>
     </div>
     ${PostSummaryList()}
