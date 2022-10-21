@@ -1,5 +1,4 @@
 import React from "react";
-import "./index.css";
 import posts from "./posts.json";
 import PostItem from "./post-item";
 
