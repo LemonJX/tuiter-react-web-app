@@ -7,11 +7,11 @@ const ImgArea = (
     }
 ) => {
     if (title == null && text == null) {
-        return(<img src={`./image/${image}`} className="w-100 rounded border" alt={"post image"}/>);
+        return(<img src={`./image/${image}`} className="w-100 rounded border" alt={"post_img"}/>);
     }
     return(
         <>
-            <img src={`./image/${image}`} className="w-100 rounded-top border" alt={"post image"}/>
+            <img src={`./image/${image}`} className="w-100 rounded-top border" alt={"post_img"}/>
             <div className="p-2 rounded-bottom border border-top-0">{title}<br/>
                 <span className="text-secondary">{text}</span>
             </div>
