@@ -1,11 +1,5 @@
 import React from "react";
-const ImgArea = (
-    {
-        image = "starship.jpeg",
-        title = "Countdown: Inspiration4 Mission to Space | Netflix Official Site",
-        text = "From training to launch to landing, this all-access docuseries rides along with the Inspiration4 crew on the first all-civilian orbital space..."
-    }
-) => {
+const ImgArea = ({image, title, text}) => {
     if (title == null && text == null) {
         return(<img src={`./image/${image}`} className="w-100 rounded border" alt={"post_img"}/>);
     }
