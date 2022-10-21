@@ -6,7 +6,7 @@ const PostItem = (post) => {
         img_area =
             `<img src="${post.image}" class="w-100 rounded-top wd-border"/>
             <div class="p-2 rounded-bottom wd-border border-top-0">
-                ${post.img_title}</br>
+                ${post.img_title}<br/>
                 <span class="text-secondary">${post.img_text}</span>
             </div>`;
     }
