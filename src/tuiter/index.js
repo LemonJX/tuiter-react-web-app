@@ -1,8 +1,7 @@
 // import {Link} from "react-router-dom";
 // import Nav from "../nav";
 import React from "react";
-// import HomeComponent from "./home";
-import TuitsList from "./tuits";
+import HomeComponent from "./home";
 import ExploreComponent from "./explore";
 import NavigationSidebar from "./navigation-sidebar";
 import WhoToFollowList from "./who-to-follow-list";
@@ -23,7 +22,7 @@ function Tuiter() {
                 </div>
                 <div className="col-10 col-md-10 col-lg-7 col-xl-6" style={{"position": "relative"}}>
                     <Routes>
-                        <Route path="home"    element={<TuitsList/>}/>
+                        <Route path="home"    element={<HomeComponent/>}/>
                         <Route path="explore" element={<ExploreComponent/>}/>
                     </Routes>
                 </div>
