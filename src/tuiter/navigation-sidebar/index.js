@@ -10,31 +10,31 @@ const NavigationSidebar = () => {
         <div className="list-group">
             <Link to="/tuiter" className="list-group-item">Tuiter</Link>
             <Link to="/tuiter/home" className={`list-group-item ${active === 'home'?'active':''}`}>
-                <i className="bi bi-house pe-2"></i><span className="d-none d-xl-block">Home</span>
+                <i className="bi bi-house float-start pe-2"></i><span className="d-none d-xl-block">Home</span>
             </Link>
             <Link to="/tuiter/explore" className={`list-group-item ${active === 'explore'?'active':''}`}>
-                <i className="bi bi-hash pe-2"></i><span className="d-none d-xl-block">Explore</span>
+                <i className="bi bi-hash float-start pe-2"></i><span className="d-none d-xl-block">Explore</span>
             </Link>
             <Link to="/" className="list-group-item">
-                <i className="bi bi-asterisk pe-2"></i><span className="d-none d-xl-block">Labs</span>
+                <i className="bi bi-asterisk float-start pe-2"></i><span className="d-none d-xl-block">Labs</span>
             </Link>
             <Link to="/tuiter" className={`list-group-item ${active === 'notifications'?'active':''}`}>
-                <i className="bi bi-bell pe-2"></i><span className="d-none d-xl-block">Notifications</span>
+                <i className="bi bi-bell float-start pe-2"></i><span className="d-none d-xl-block">Notifications</span>
             </Link>
             <Link to="/tuiter" className={`list-group-item ${active === 'messages'?'active':''}`}>
-                <i className="bi bi-envelope pe-2"></i><span className="d-none d-xl-block">Messages</span>
+                <i className="bi bi-envelope float-start pe-2"></i><span className="d-none d-xl-block">Messages</span>
             </Link>
             <Link to="/tuiter" className={`list-group-item ${active === 'bookmarks'?'active':''}`}>
-                <i className="bi bi-bookmark pe-2"></i><span className="d-none d-xl-block">Bookmarks</span>
+                <i className="bi bi-bookmark float-start pe-2"></i><span className="d-none d-xl-block">Bookmarks</span>
             </Link>
             <Link to="/tuiter" className={`list-group-item ${active === 'lists'?'active':''}`}>
-                <i className="bi bi-list pe-2"></i><span className="d-none d-xl-block">Lists</span>
+                <i className="bi bi-list float-start pe-2"></i><span className="d-none d-xl-block">Lists</span>
             </Link>
             <Link to="/tuiter" className={`list-group-item ${active === 'profile'?'active':''}`}>
-                <i className="bi bi-person pe-2"></i><span className="d-none d-xl-block">Profile</span>
+                <i className="bi bi-person float-start pe-2"></i><span className="d-none d-xl-block">Profile</span>
             </Link>
             <Link to="/tuiter" className={`list-group-item ${active === 'more'?'active':''}`}>
-                <i className="bi bi-three-dots pe-2"></i><span className="d-none d-xl-block">More</span>
+                <i className="bi bi-three-dots float-start pe-2"></i><span className="d-none d-xl-block">More</span>
             </Link>
         </div>
     );
