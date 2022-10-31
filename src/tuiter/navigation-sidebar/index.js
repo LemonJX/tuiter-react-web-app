@@ -30,7 +30,7 @@ const NavigationSidebar = () => {
             <Link to="/tuiter" className={`list-group-item ${active === 'lists'?'active':''}`}>
                 <i className="bi bi-list float-start pe-2"></i><span className="d-none d-xl-block">Lists</span>
             </Link>
-            <Link to="/tuiter" className={`list-group-item ${active === 'profile'?'active':''}`}>
+            <Link to="/tuiter/profile" className={`list-group-item ${active === 'profile'?'active':''}`}>
                 <i className="bi bi-person float-start pe-2"></i><span className="d-none d-xl-block">Profile</span>
             </Link>
             <Link to="/tuiter" className={`list-group-item ${active === 'more'?'active':''}`}>
