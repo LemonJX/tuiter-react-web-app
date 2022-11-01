@@ -20,25 +20,14 @@ const profileSlice = createSlice({
     initialState: profile,
     reducers: {
         changeProfile(state, action) {
-
+            state.firstName = action.payload.firstName
+            state.lastName = action.payload.lastName
+            state.bio = action.payload.bio
+            state.website = action.payload.website
+            state.location = action.payload.location
+            state.dateOfBirth = action.payload.dateOfBirth
         }
     }
-
-    // reducers: {
-    //     deleteTuit(state, action) {
-    //         const index = state
-    //             .findIndex(post =>
-    //                 post._id === action.payload);
-    //         state.splice(index, 1);
-    //     },
-    //     createTuit(state, action) {
-    //         state.unshift({
-    //             ...action.payload,
-    //             ...templateTuit,
-    //             _id: (new Date()).getTime(),
-    //         })
-    //     }
-    // }
 });
 
 export const {changeProfile} = profileSlice.actions;
