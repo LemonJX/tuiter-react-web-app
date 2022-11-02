@@ -25,7 +25,7 @@ const TuitsItem = (
         <li className="list-group-item">
             <div className="row">
                 <div className="col-2">
-                    <img src={`./image/${post.avatar}`} className="rounded-circle mt-3 w-100" alt={"avatar"}/>
+                    <img src={`/image/${post.avatar}`} className="rounded-circle mt-3 w-100" alt={"avatar"}/>
                 </div>
                 <div className="col-10 p-2">
                     <b>{post.userName}</b><i className="bi bi-patch-check-fill text-primary ps-1"></i>

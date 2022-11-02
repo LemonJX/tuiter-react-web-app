@@ -14,6 +14,7 @@ const EditProfile = () => {
     const saveClickHandler = () => {dispatch(changeProfile(profile));}
     const firstNameInputHandler = (event) => {
         const newFirst = {...profile, firstName: event.target.value, handle: event.target.value.toLowerCase()};
+        console.log(newFirst);
         setProfile(newFirst);
     }
     const lastNameInputHandler = (event) => {

@@ -22,6 +22,7 @@ const profileSlice = createSlice({
         changeProfile(state, action) {
             state.firstName = action.payload.firstName
             state.lastName = action.payload.lastName
+            state.handle = action.payload.handle
             state.bio = action.payload.bio
             state.website = action.payload.website
             state.location = action.payload.location

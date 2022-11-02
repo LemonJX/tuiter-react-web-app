@@ -2,7 +2,7 @@
   {
     "_id": 1,
     "topic": "Space",
-    "avatar": "avatar.jpg",
+    "avatar": "spacex.jpeg",
     "userName": "SpaceX",
     "handle": "spacex",
     "time": "2h",
@@ -30,7 +30,7 @@
   {
     "_id": 3,
     "topic": "Tesla Cybertruck",
-    "avatar": "avatar.jpg",
+    "avatar": "spacex.jpeg",
     "userName": "SpaceX",
     "handle": "spacex",
     "time": "2h",
