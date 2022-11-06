@@ -1,6 +1,7 @@
 import React from "react";
 import {useDispatch} from "react-redux";
 import {deleteTuit} from "./tuits-reducer";
+import TuitsStats from "./tuits-stats";
 
 const TuitsItem = (
     {post = {
@@ -33,24 +34,7 @@ const TuitsItem = (
                     <i className="bi bi-x-lg float-end" onClick={() => deleteTuitHandler(post._id)}></i>
 
                     <div className="mt-2">{post.content}</div>
-
-                    <div className="row mt-2">
-                        <div className="col-3">
-                            <i className="bi bi-chat text-secondary"></i>
-                            <span className="text-secondary"> {post.comments}</span>
-                        </div>
-                        <div className="col-3">
-                            <i className="bi bi-repeat text-secondary"></i>
-                            <span className="text-secondary"> {post.retuit}</span>
-                        </div>
-                        <div className="col-3">
-                            {post.liked? <i className="bi bi-heart-fill text-danger"></i> : <i className="bi bi-heart text-secondary"></i>}
-                            <span className="text-secondary"> {post.likes}</span>
-                        </div>
-                        <div className="col-3">
-                            <i className="bi bi-share text-secondary"></i>
-                        </div>
-                    </div>
+                    <TuitsStats key={post._id} post={post}/>
                 </div>
             </div>
         </li>

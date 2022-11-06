@@ -39,15 +39,15 @@ const EditProfile = () => {
     }
     return(
         <>
-            <Link to="/tuiter/profile"><i className="bi bi-x-lg float-left align-middle"></i></Link>
-            <b className="float-left align-middle ms-4">Edit profile</b>
+            <Link to="/tuiter/profile"><i className="bi bi-x-lg float-start pt-2"></i></Link>
+            <b className="float-start ms-4 pt-2">Edit profile</b>
             <Link to="/tuiter/profile">
-                <button className="btn btn-dark rounded-pill float-end mb-1"
+                <button className="btn btn-dark rounded-pill float-end pt-2 mb-3"
                         onClick={saveClickHandler}>Save</button>
             </Link>
 
-            <img className="w-100" src={`./image/${me.banner}`} alt="banner"/>
-            <img src={`./image/${me.avatar}`} alt={"avatar"}
+            <img className="w-100" src={`/image/${me.banner}`} alt="banner"/>
+            <img src={`/image/${me.avatar}`} alt={"avatar"}
                  className="rounded-circle w-25 ms-3 position-relative top-0 translate-middle-y"/>
 
             <form className="end-0">
