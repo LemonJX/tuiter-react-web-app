@@ -6,8 +6,8 @@ import {findTuitsThunk} from "../../services/tuits-thunks";
 const PostSummaryList = () => {
     const {tuits, loading} = useSelector(state => state.tuitsData)
     const dispatch = useDispatch();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
     useEffect(() => {dispatch(findTuitsThunk())}, [])
-    // eslint-disable-line react-hooks/exhaustive-deps
 
     return(
         <ul className="list-group">
