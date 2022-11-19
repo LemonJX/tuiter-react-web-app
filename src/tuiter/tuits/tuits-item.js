@@ -16,7 +16,7 @@ const TuitsItem = ({tuit}) => {
                 </div>
                 <div className="col-10 p-2">
                     <b>{tuit.username}</b><i className="bi bi-patch-check-fill text-primary ps-1"></i>
-                    <span className="text-secondary"> {tuit.handle} - {tuit.time}</span>
+                    <span className="text-secondary"> @{tuit.handle} - {tuit.time}</span>
                     <i className="bi bi-x-lg float-end" onClick={() => deleteTuitHandler(tuit._id)}></i>
 
                     <div className="mt-2">{tuit.tuit}</div>
